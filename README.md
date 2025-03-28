@@ -15,18 +15,18 @@ This repository contains course notes and Jupyter notebooks for the **Large Lang
 
 ## **Course Content**  
 
-### [**1. Keyword Search** ]() 
+### [**1. Keyword Search** ](https://github.com/michaWorku/LLMs_with_Semantic_Search/tree/main/L1_Keyword_Search) 
 - Set up a **Weaviate** client for search queries.  
 - Define a **keyword search function** with query parameters.  
 - Perform keyword-based search and analyze the results.  
 - Modify query options to improve search quality.  
 
-### [**2. Embeddings**]()  
+### [**2. Embeddings**](https://github.com/michaWorku/LLMs_with_Semantic_Search/tree/main/L2_Embeddings)  
 - Load API keys and relevant Python libraries (**Cohere, UMAP, Altair, Datasets**).  
 - Create word, sentence, and article embeddings.  
 - Use embeddings to represent text in a dense vector space.  
 
-### [**3. Dense Retrieval**]()  
+### [**3. Dense Retrieval**](https://github.com/michaWorku/LLMs_with_Semantic_Search/tree/main/L3-Dense_Retrival)  
 - Load API keys and set up **Weaviate** and **Annoy** for search.  
 - Implement **vector-based semantic search** with dense retrieval.  
 - Compare **keyword search vs. dense retrieval** for different query complexities.  
@@ -35,15 +35,15 @@ This repository contains course notes and Jupyter notebooks for the **Large Lang
   - Creating embeddings for text.  
   - Indexing and retrieving relevant results.  
 
-#### [**ANN vs. Vector Databases**]()  
+#### **ANN vs. Vector Databases**  
 - **Approximate Nearest-Neighbor (ANN) search** using libraries like **Annoy, FAISS, ScaNN**.  
 - **Vector databases** (Weaviate, Pinecone, PostgreSQL, Chroma) for storing and querying both vectors and text.  
 
-### [**4. Rerank**]()  
+### [**4. Rerank**](https://github.com/michaWorku/LLMs_with_Semantic_Search/tree/main/L4-ReRank)  
 - Improve search relevance by **reranking keyword search and dense retrieval results** using **Cohere Rerank**.  
 - Evaluate search performance using **MAP, MRR, and NDCG metrics**.  
 
-### [**5. Generating Answers**]()  
+### [**5. Generating Answers**](https://github.com/michaWorku/LLMs_with_Semantic_Search/tree/main/L5-Generative_Search)  
 - Build an **LLM-powered answer generation system**:  
   - **Chunk** and clean text data.  
   - **Embed** documents for semantic search.  
